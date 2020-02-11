@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding-left: 15%;
+}
+
+.title {
+  text-align: left;
+  padding: 20px 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title h1 {
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.container {
+  float: left;
+  width: 35%;
+  height: 400px;
+  background: #fff;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.formBox {
+  width: 80%;
+  padding: 30px 30px;
+  box-sizing: border-box;
+  height: 500px;
+}
+
+.formBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #5e6b72;
+}
+
+.formBox input {
+  margin-bottom: 20px;
+}
+.formBox input[type="text"],
+.formBox input[type="password"] {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  height: 20px;
+  width: 100%;
+}
+
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus {
+  border-bottom: 2px solid #262626;
+}
+
+.formBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  background: #262626;
+}
