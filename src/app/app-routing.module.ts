@@ -9,6 +9,7 @@ import { FaqComponent } from "./faq/faq.component";
 import { ContactComponent } from "./contact/contact.component";
 import { HomepageComponent } from "./homepage/homepage.component";
 import { OverviewComponent } from "./overview/overview.component";
+import { TechnicaldocumentationComponent } from "./technicaldocumentation/technicaldocumentation.component";
 
 const routes: Routes = [
   { path: "apis", component: ApisComponent },
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: "faq", component: FaqComponent },
   { path: "contact", component: ContactComponent },
   { path: "home", component: HomepageComponent },
-  { path: "overview", component: OverviewComponent }
+  { path: "overview", component: OverviewComponent },
+  { path: "technicaldocumentation", component: TechnicaldocumentationComponent }
 ];
 
 @NgModule({

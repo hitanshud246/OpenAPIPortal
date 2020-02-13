@@ -1,3 +1,171 @@
+/*	
+	Side Navigation Menu
+	===================
+	License:
+	https://goo.gl/KC3XXj
+	===================
+	Author: @PableraShow
+
+ */
+
+@import url(http://pablogarciafernandez.com/css/reset.css);
+
+/* Typography
+  ------------------------------------- */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.8em;
+  color: #4d4d4d;
+}
+
+/* Navigation */
+
+/* End Navigation */
+
+/* Sections */
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  color: #000;
+  line-height: 1.8em;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h2 a {
+  font-weight: 700;
+}
+
+/* End Sections */
+
+/* Structure
+  ------------------------------------- */
+body {
+  background: #f1f1f1;
+}
+
+/* Navigation */
+
+a {
+  text-decoration: none;
+  color: #151515;
+  font-size: medium;
+
+  transition-delay: 0s;
+  transition-duration: 0.36s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+a :hover {
+  color: gray;
+}
+
+.sidenavbar {
+  margin-top: 19%;
+  height: 100px;
+  width: 30px;
+}
+nav a:hover {
+  font-weight: 400;
+}
+
+nav,
+nav:hover {
+  padding: 0em;
+}
+
+nav a {
+  text-indent: 00px;
+}
+
+nav:hover a {
+  text-indent: 0px;
+  color: #eeffe5;
+}
+
+svg,
+a {
+  vertical-align: top;
+}
+
+/* End Navigation */
+
+/* Sections */
+
+body {
+  background: #f1f1f1;
+}
+
+/* Navigation */
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  height: auto;
+  width: 50px;
+  background-color: #fae5b3;
+
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+
+nav:hover {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: 0px;
+  height: 100%;
+  width: 150px;
+  background-color: #fae5b3;
+}
+
+nav a {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  margin-left: 0em;
+}
+
+nav:hover a {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  color: #000;
+}
+
+li {
+  display: block;
+  padding: 0.2em;
+  height: 32px;
+}
+
+svg,
+a {
+  display: inline-block;
+}
+
+/* End Navigation */
+
+/* Sections */
+
+section {
+  padding: 2em 0 0 14em;
+}
+
+/* End sections */
+
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400");
 
 *,
@@ -26,9 +194,9 @@ body {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 00px auto;
   padding: 4rem;
-  width: 65rem;
+  width: 50rem;
 }
 
 h3 {
@@ -73,8 +241,6 @@ h3 {
 }
 
 .accordion a::after {
-  font-family: "Ionicons";
-  content: "\f218";
   position: absolute;
   float: right;
   right: 1rem;
@@ -91,8 +257,6 @@ h3 {
 }
 
 .accordion a.active::after {
-  font-family: "Ionicons";
-  content: "\f209";
   color: #d27f03;
   border: 1px solid #d27f03;
 }

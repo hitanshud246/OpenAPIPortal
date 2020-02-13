@@ -13,18 +13,18 @@ body {
   margin: 0;
   padding: 0;
   color: black;
-  text-transform: uppercase;
   font-size: 36px;
 }
 
 .container {
   float: left;
   width: 35%;
-  height: 400px;
+  height: 500px;
   background: #fff;
   margin: 0 auto;
   border: 2px solid #fff;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
 }
 
 .formBox {
@@ -46,16 +46,18 @@ body {
 }
 .formBox input[type="text"],
 .formBox input[type="password"] {
-  border: none;
-  border-bottom: 2px solid black;
-  outline: none;
-  height: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
   width: 100%;
 }
 
 .formBox input[type="text"]:focus,
 .formBox input[type="password"]:focus {
-  border-bottom: 2px solid #262626;
+  border: 1px solid #262626;
 }
 
 .formBox input[type="submit"] {
@@ -65,4 +67,18 @@ body {
   width: 100%;
   color: #fff;
   background: #262626;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+.aboutheader {
+  border-left: 6px solid orangered;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img {
+  margin-left: 20%;
+  margin-top: 10%;
 }

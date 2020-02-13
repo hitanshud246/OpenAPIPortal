@@ -1,0 +1,60 @@
+.layout {
+  display: flexbox;
+}
+
+.formBox {
+  float: left;
+  width: 20%;
+}
+.formBox button[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 150px;
+  color: #fff;
+  background: #262626;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-left: -30px;
+}
+
+.body {
+  float: left;
+  width: 70%;
+}
+.firstheader {
+  border-left: 6px solid orangered;
+  padding-left: 10px;
+  font-size: 30px;
+}
+/* -------------
+Hover
+----------------*/
+/*Footer*/
+footer {
+  padding: 2em 0;
+  width: 100%;
+  text-align: center;
+  background: lightGrey;
+}
+footer .nav-ul {
+  justify-content: center;
+  margin-bottom: 1em;
+}
+footer li:not(:first-child) {
+  margin-left: 0.75em;
+}
+footer li:first-child a {
+  color: lightBlack;
+}
+footer a {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: darkGrey;
+}
+footer a focus {
+  color: lightBlack;
+}
+footer a hover {
+  color: lightBlack;
+}

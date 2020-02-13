@@ -1,16 +1,25 @@
 <body>
-  <div class="title"><h1>Login</h1></div>
+  <div class="title" class="aboutheader"><h1>Login</h1></div>
   <div class="container">
     <div class="formBox">
       <form>
         <p>Username</p>
-        <input type="text" name="" placeholder="Online" />
+        <input type="text" name="" placeholder="" />
         <p>Password</p>
-        <input type="password" name="" placeholder="*******" />
-        <p></p>
-        <input type="submit" name="" placeholder="Register" />
+        <input type="password" name="" placeholder="" />
+        <button
+          class="loginsubmit"
+          type="submit"
+          name=""
+          placeholder="Register"
+        >
+          <a href="home">Submit</a>
+        </button>
       </form>
       <a href="#"> Forgot Password?</a>
     </div>
   </div>
+  <img
+    src="data:image/png;base64,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"
+  />
 </body>

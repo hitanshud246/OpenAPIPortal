@@ -7,7 +7,15 @@
   border-radius: 1em;
   margin-left: 6.5em;
 }
-
+.icon {
+  margin-left: 130px;
+  margin-top: 10px;
+}
+p {
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
 .box focus {
   background: #f5f5f5;
 }
@@ -22,12 +30,12 @@
   text-align: center;
 }
 .box p {
-  margin-top: 4em;
-  height: 6em;
+  margin-top: 3em;
+  height: 5em;
   text-align: justify;
 }
 .box .button {
-  margin: 4em auto;
+  margin: auto;
 }
 .apiheader {
   font-size: medium;
@@ -82,4 +90,9 @@
   font-size: small;
   text-decoration: underline;
   padding-left: 10em;
+  text-transform: none;
+}
+.securetechnical {
+  color: black;
+  text-decoration: none;
 }

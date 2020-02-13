@@ -13,9 +13,11 @@ import { GettingstartedComponent } from './gettingstarted/gettingstarted.compone
 import { ContactComponent } from './contact/contact.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { OverviewComponent } from './overview/overview.component';
+import { TechnicaldocumentationComponent } from './technicaldocumentation/technicaldocumentation.component';
+import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, ApisComponent, RegisterComponent, LoginComponent, FaqComponent, GettingstartedComponent, ContactComponent, HomepageComponent, OverviewComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, ApisComponent, RegisterComponent, LoginComponent, FaqComponent, GettingstartedComponent, ContactComponent, HomepageComponent, OverviewComponent, TechnicaldocumentationComponent, SidenavbarComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
