@@ -23,6 +23,7 @@ a {
   padding-bottom: 0;
   height: 100px;
   align-items: center;
+  background-color: #AD1B02;
 }
 
 .sm-logo {
@@ -67,16 +68,24 @@ li {
 .nav-links {
   margin-left: 50px;
   margin-right: 20px;
-  color: gray;
+  color: #fff;
   padding: 8px;
   transition: ease;
   display: inline-block;
-  font-size: 15px;
-  border-bottom: 3px solid orange;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  /* border-bottom: 3px solid orange; */
 }
 .nav-links :hover {
   background: orange;
   padding: 8px;
   transition: ease;
   transform: scale(1.1);
+}
+
+.home {
+  width: 150px;
+  height: auto;
+  position: relative;
+  left: 1em;
 }
