@@ -1,4 +1,4 @@
-/*	
+/*
 	Side Navigation Menu
 	===================
 	License:
@@ -271,11 +271,13 @@ h3 {
   -webkit-transition: all 0.2s ease 0.15s;
   -o-transition: all 0.2s ease 0.15s;
   transition: all 0.2s ease 0.15s;
+  font-family: 'Roboto Slab', serif;
 }
 
 .accordion .content p {
   font-size: 1rem;
   font-weight: 300;
+  font-family: 'Roboto Slab', serif;
 }
 
 .accordion .content.active {
@@ -285,4 +287,33 @@ h3 {
   -webkit-transition: all 0.35s ease 0.15s;
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
+  font-family: 'Roboto Slab', serif;
+}
+
+.aboutheader {
+  border-left: 6px solid #db0011;
+  padding-left: 10px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  color: #4b4b4b;
+  font-family: 'Roboto Slab', serif;
+}
+
+.about {
+  float: left;
+  width: 100%;
+  font-style: oblique;
+}
+
+.full-width {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grey-bg {
+  background-color: #f5f6f7;
+  min-height: 240px;
+  clear: both;
 }

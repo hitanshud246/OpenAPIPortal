@@ -6,7 +6,7 @@ body {
 .title {
   text-align: left;
   padding: 20px 0 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title h1 {
@@ -19,26 +19,29 @@ body {
 .container {
   float: left;
   width: 35%;
-  height: 500px;
+  height: 460px;
   background: #fff;
   margin: 0 auto;
-  border: 2px solid #fff;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
+  border: 1px solid #eeeeee;
+  -webkit-box-shadow: 9px 9px 15px -3px rgba(120,105,120,1);
+  -moz-box-shadow: 9px 9px 15px -3px rgba(120,105,120,1);
+  box-shadow: 9px 9px 15px -3px rgba(120,105,120,1);
+  border-radius: 0px;
+
 }
 
 .formBox {
-  width: 80%;
-  padding: 30px 30px;
+  padding: 15px;
   box-sizing: border-box;
-  height: 500px;
+  height: auto;
 }
 
 .formBox p {
   margin: 0;
   padding: 0;
-  font-weight: bold;
-  color: #5e6b72;
+  font-weight: 400;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .formBox input {
@@ -49,8 +52,8 @@ body {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #929292;
+  border-radius: 0px;
   box-sizing: border-box;
   width: 100%;
 }
@@ -60,22 +63,33 @@ body {
   border: 1px solid #262626;
 }
 
-.formBox input[type="submit"] {
+.formBox input[type="submit"],
+.formBox input[type="button"] {
   border: none;
   outline: none;
   height: 40px;
   width: 100%;
-  color: #fff;
-  background: #262626;
-  border-radius: 3px;
+  border-radius: 0px;
   margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #929292;
+  color: #333;
+  font-size: 1rem;
+  background: none;
+}
+
+.formBox input[type="submit"]:hover,
+.formBox input[type="button"]:hover {
+  background-color: #ec0000;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #ccc;
 }
 .aboutheader {
-  border-left: 6px solid orangered;
+  border-left: 6px solid #db0011;
   padding-left: 10px;
   font-size: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
