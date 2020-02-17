@@ -1,11 +1,31 @@
+.about-api {
+  float: left;
+  padding: 1.5em 30px;
+  width: calc(100% - 60px);
+}
 .box {
   float: left;
-  padding: 1.5em 1em;
+  padding: 1.5em 2em;
   width: 20%;
   height: 300px;
-  border: 0.1em solid lightGrey;
-  border-radius: 1em;
   margin-left: 6.5em;
+  float: left;
+  margin-left: 4em;
+  margin-right: 1.333%;
+  border: 1px solid #d7d8d6;
+  margin-bottom: 20px;
+  border-radius: 0px;
+  position: relative;
+  overflow: hidden;
+}
+.box img {
+  position: absolute;
+  padding: 0px;
+  margin: 0;
+  top: 13px;
+}
+.box .content {
+  margin-top: 7em;
 }
 .icon {
   margin-left: 130px;
@@ -75,7 +95,6 @@ p {
   margin-left: 4em;
 }
 .overviewfont {
-  color: white;
   text-decoration: none;
 }
 .divider {
@@ -95,4 +114,84 @@ p {
 .securetechnical {
   color: black;
   text-decoration: none;
+}
+
+
+.star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #f5f6f7;
+  font-size: .875rem;
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+  height: 75px;
+  width: 200px;
+  right: -80px;
+  top: -25px;
+}
+
+.box button {
+  background: 0 0;
+  border: 1px solid #929292;
+  color: #333;
+  padding: 15px 20px;
+  font-size: 1rem;
+  position: relative;
+  top: 20px;
+  margin: 0 !important;
+}
+
+.box button:hover {
+  background-color: #ec0000;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+
+.about {
+  float: left;
+  padding: 1.5em 3em;
+  width: 100%;
+  font-style: oblique;
+}
+.briefbody {
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 900px;
+  font-family: 'Roboto Slab', serif;
+  color: #4b4b4b;
+}
+.aboutheader {
+  border-left: 6px solid #db0011;
+  padding-left: 10px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  color: #4b4b4b;
+}
+
+.full-width {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grey-bg {
+  background-color: #f5f6f7;
+  min-height: 240px;
+  clear: both;
 }
